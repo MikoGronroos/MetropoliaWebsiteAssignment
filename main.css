@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex: 8;
+    flex: 6.5;
 }
 
 .topnav a {
@@ -76,7 +76,7 @@ body {
 }
 
 .site1 {
-    background-image: url("sivu1BG.jpeg");
+    background-color: pink;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -84,13 +84,16 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .site2 {
-    background-image: url("sivu2BG.jpg");
+    background-color: turquoise;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    justify-content: center;
+    display:flex;
 }
 
 .site3 {
@@ -101,7 +104,7 @@ body {
 }
 
 .companyPhoto{
- width: 80%;
+ width: 85%;
  height: 500px;
  background-color: blue;
 }
@@ -109,4 +112,25 @@ body {
 .companyName{
  margin-top: 15%;
  font-size: 75px;
+}
+
+.companyText{
+  width: 70%;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 85%;
+}
+
+.product{
+  width: 400px;
+  height: 800px;
+  background-color: white;
+}
+
+.product:not(:first-child):not(:last-child){
+
 }
