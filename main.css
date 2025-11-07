@@ -84,16 +84,18 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .site2 {
+    padding-top: 30px;
     background-color: turquoise;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
     display:flex;
+    padding-bottom: 290px;
 }
 
 .site3 {
