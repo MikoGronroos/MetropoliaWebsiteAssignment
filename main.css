@@ -97,10 +97,13 @@ body {
 }
 
 .site3 {
-    background-image: url("sivu3BG.jpeg");
+    background-color: #8b0000;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 290px;
 }
 
 .companyPhoto{
@@ -126,11 +129,70 @@ body {
 }
 
 .product{
-  width: 400px;
-  height: 800px;
+  width: 29%;
+  height: 825px;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerProduct{
+  width: 90%;
+  height:95%;
+}
+
+.productName{
+  font-size: 30px;
+}
+
+.productImage{
+  width: 99%;
+  height: 50%;
+  background-color: black;
+}
+
+.productDesc{
+  font-size: 21px;
 }
 
 .product:not(:first-child):not(:last-child){
 
+}
+
+.contactBox{
+
+  margin-left: 4%;
+  margin-right: 4%;
+  height: 100%;
+
+}
+
+.contactText{
+  font-size: 30px;
+}
+
+.informationBox{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.information{
+  height: 400px;
+  width: 400px;
+}
+
+.map{
+
+height:600px;
+width: 50%;
+
+background-color: black;
+
+}
+
+.information p{
+  margin:0;
+  font-size: 20px;
 }
