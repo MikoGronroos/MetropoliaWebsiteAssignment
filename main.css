@@ -1,3 +1,8 @@
+@font-face {
+  font-family: fontti;
+  src: url('./PlayfairDisplay-VariableFont_wght.ttf'); /* url of the font */
+}
+
 html,
 body {
     margin: 0;
@@ -7,7 +12,7 @@ body {
 }
 
 .topnavText{
-  height: 100%;
+	height: 100%;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -18,7 +23,7 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
-  height: 80px;
+  height: 90px;
   display: flex; 
 
 }
@@ -52,6 +57,7 @@ body {
     font-size: 17px;
     height: 100%;
     text-align:center;
+	font-family: fontti;
 }
 
 .topnav a:hover {
@@ -67,6 +73,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
+	font-family: fontti;
 }
 
 .col {
