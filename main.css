@@ -31,20 +31,27 @@ body {
 .topnavButtons{
   height: 100%;
 }
-
+.topnavLogoImage{
+  height: 100%;
+  width: 100%;
+    display: block;     
+  max-width: 100%;   
+  height: auto;     
+}
 .topnavLogo{
+	    background-color: white;
   height: 100%;
   width: 10%;
-  background-color: blue;
   flex: 1;
+  
 }
 
 .topnav{
-    background-color: #333;
+    background-color: white;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    flex: 6.5;
+    flex: 7.5;
 }
 
 .topnav a {
@@ -58,15 +65,16 @@ body {
     height: 100%;
     text-align:center;
 	font-family: fontti;
+	    color: black;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #00406E;
+    color: white;
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #00406E;
     color: white;
 }
 
@@ -81,9 +89,14 @@ body {
     width: 100%;
     flex: 1;
 }
-
+  .bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
 .site1 {
-    background-color: pink;
+    background-color: #00406E;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +109,7 @@ body {
 
 .site2 {
     padding-top: 30px;
-    background-color: turquoise;
+    background-color: white;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,7 +119,7 @@ body {
 }
 
 .site3 {
-    background-color: #8b0000;
+    background-color: #00406E;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -117,17 +130,18 @@ body {
 
 .companyPhoto{
  width: 85%;
- height: 500px;
- background-color: blue;
+ height: 950px;
 }
 
 .companyName{
- margin-top: 15%;
+ margin-top: 4%;
  font-size: 75px;
+ color: white;
 }
 
 .companyText{
   width: 70%;
+   color: white;
 }
 
 .product-container {
@@ -140,7 +154,7 @@ body {
 .product{
   width: 29%;
   height: 825px;
-  background-color: white;
+  background-color:  #00406E;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,19 +164,26 @@ body {
   width: 90%;
   height:95%;
 }
-
+.productNameSmall{
+   color: white;
+}
 .productName{
   font-size: 30px;
+   color: white;
 }
 
 .productImage{
   width: 99%;
   height: 50%;
   background-color: black;
+    display: block;     
+  max-width: 100%;   
+  height: auto;     
 }
 
 .productDesc{
   font-size: 21px;
+   color: white;
 }
 
 .product:not(:first-child):not(:last-child){
@@ -179,6 +200,7 @@ body {
 
 .contactText{
   font-size: 30px;
+    color: white;
 }
 
 .informationBox{
@@ -204,4 +226,5 @@ background-color: black;
 .information p{
   margin:0;
   font-size: 20px;
+     color: white;
 }
